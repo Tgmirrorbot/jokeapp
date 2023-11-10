@@ -29,8 +29,8 @@ const JokeBox = () => {
         <div className="animate-spin w-5 h-5 border-t-2 border-blue-500"></div>
       ) : joke ? (
         <>
-          <h2 className="text-xl font-bold mb-2">{joke.setup}</h2>
-          <p className="mb-4">{joke.punchline}</p>
+          <h2 className="text-xl font-bold mb-2 text-black">{joke.setup}</h2>
+          <p className="mb-4 text-black">{joke.punchline}</p>
           <button
             className="px-4 py-2 rounded bg-blue-500 text-white"
             onClick={fetchJoke}
